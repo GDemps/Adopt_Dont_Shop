@@ -1,3 +1,9 @@
+# User Story 2, Shelter Index
+#
+# As a visitor
+# When I visit '/shelters'
+# Then I see the name of each shelter in the system
+
 require 'rails_helper'
 
 RSpec.describe "shelters index page", type: :feature do

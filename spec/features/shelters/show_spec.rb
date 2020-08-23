@@ -1,3 +1,14 @@
+# User Story 3, Shelter Show
+#
+# As a visitor
+# When I visit '/shelters/:id'
+# Then I see the shelter with that id including the shelter's:
+# - name
+# - address
+# - city
+# - state
+# - zip
+
 require 'rails_helper'
 
 RSpec.describe "shelters show page", type: :feature do
